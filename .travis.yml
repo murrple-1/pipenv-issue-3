@@ -1,0 +1,10 @@
+language: python
+python: "3.6"
+cache: pip
+before_install:
+  - pip install pipenv==2018.11.26
+  - python -m pipenv.help
+install:
+  - pipenv install --verbose --three
+script:
+  - pipenv graph

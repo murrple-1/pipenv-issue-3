@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"argon2-cffi" = "==19.1.0"
+
+[dev-packages]
+
+[requires]
