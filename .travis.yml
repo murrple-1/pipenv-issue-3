@@ -10,5 +10,4 @@ install:
 script:
   - pipenv graph
 env:
-  - PIP_NO_BINARY=argon2-cffi
-  - PIP_NO_CACHE_DIR=false
+  - PIP_NO_BINARY=argon2-cffi PIP_NO_CACHE_DIR=off
