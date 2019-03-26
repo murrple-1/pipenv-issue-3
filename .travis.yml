@@ -4,6 +4,7 @@ cache: pip
 env:
   - PIP_NO_BINARY=argon2-cffi
 before_install:
+  - pip install -U pip
   - pip install pipenv==2018.11.26
   - python -m pipenv.help
 install:
