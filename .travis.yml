@@ -8,7 +8,6 @@ before_install:
   - pip install pipenv==2018.11.26
   - python -m pipenv.help
 install:
-  - pip install enum34==1.1.6 # forcing enum34 to be installed first
   - export PIP_NO_CACHE_DIR=off
   - pipenv sync --verbose
 script:
