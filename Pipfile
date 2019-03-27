@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 "argon2-cffi" = "==19.1.0"
+enum34 = { version = "*", python_version = "<'3.4'" }
 
 [dev-packages]
 
