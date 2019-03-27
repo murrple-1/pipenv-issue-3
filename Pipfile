@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-"argon2-cffi" = "==19.1.0"
+argon2-cffi = { git = "https://github.com/hynek/argon2_cffi.git", ref = "8eed81a", editable = true }
 
 [dev-packages]
 
