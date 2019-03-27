@@ -4,7 +4,7 @@ cache: pip
 before_install:
   - pip install -U pip==19.0.3
   - pip install pipenv==2018.11.26
-  - python -m pipenv.help
+  - pipenv --support
 install:
   - export PIP_NO_BINARY=argon2-cffi # wheels avoid the problem because they don't run setup.py
   - export PIP_NO_CACHE_DIR=off
